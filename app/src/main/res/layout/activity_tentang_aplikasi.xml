@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:id="@+id/SAAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9DADFA"
+        app:title="Kembali"
+        app:titleTextColor="#223480"
+        app:navigationIcon="@drawable/baseline_arrow_back_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RiverGuard"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#223480"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Versi 1.0"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        android:textColor="#223480" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo2"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:contentDescription="SiagaArus Logo"
+            android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="RiverGuard adalah aplikasi untuk memantau kondisi cuaca,serta debit dan ketinggian air di hulu sungai."
+        android:textColor="#223480"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Software Developer"
+        android:textColor="#223480"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_shapes"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/circle_outline"
+                android:clipToOutline="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/uchank" />
+
+            <TextView
+                android:layout_width="167dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Ahmad Fauzanul Islam 42522031"
+                android:textColor="#223480"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/background_shapes"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/circle_outline"
+                android:clipToOutline="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/duta" />
+
+            <TextView
+                android:layout_width="162dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Muh Arya Duta    42522007"
+                android:textColor="#223480"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_shapes"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/circle_outline"
+                android:clipToOutline="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/irpan" />
+
+            <TextView
+                android:layout_width="111dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Irpan Aldi 42522055"
+                android:textColor="#223480"
+                android:textSize="16sp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/background_shapes"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/circle_outline"
+                android:clipToOutline="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/fajria" />
+
+            <TextView
+                android:layout_width="162dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Nur Fajria Rahman 42522019"
+                android:textColor="#223480"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mendeklarasikan atribut untuk CustomView -->
+    <declare-styleable name="CustomView">
+        <attr name="sv_mediumSpeedColor" format="color"/>
+        <attr name="sv_highSpeedColor" format="color"/>
+        <attr name="sv_lowSpeedColor" format="color"/>
+    </declare-styleable>
+</resources>

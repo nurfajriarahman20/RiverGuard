@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PanduanActivity"
+    android:background="@drawable/bg">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9DADFA"
+        app:title="Kembali"
+        app:titleTextColor="#223480"
+        app:navigationIcon="@drawable/baseline_arrow_back_24" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Panduan Evakuasi"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:textColor="#223480"
+                android:fontFamily="sans-serif-medium" />
+
+
+            <LinearLayout
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/background_shapes"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="242dp"
+                        android:layout_height="wrap_content"
+                        android:text="Jangan Dekati Sungai"
+                        android:textColor="#223480"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="242dp"
+                        android:layout_height="wrap_content"
+                        android:text="Hindari daerah sekitar sungai dan jangan mencoba menyelamatkan barang saat banjir."
+                        android:textColor="#223480"
+                        android:textSize="13sp"
+                        android:layout_marginTop="10dp"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/IVSungai"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:clipToOutline="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/jangan"
+                    android:background="@drawable/sungai"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/background_shapes"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="242dp"
+                        android:layout_height="wrap_content"
+                        android:text="Segera Evakuasi ke Tempat yang Lebih Tinggi"
+                        android:textColor="#223480"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="228dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Jika ada tanda-tanda banjir atau kenaikan debit air, segera pindah ke tempat yang lebih tinggi dan aman. Hindari tempat yang rendah seperti pinggiran sungai atau daerah rawan banjir."
+                        android:textColor="#223480"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/IVTTinggi"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:clipToOutline="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tinggii"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/background_shapes"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="242dp"
+                    android:layout_height="wrap_content"
+                    android:text="Evakuasi Keluarga dan Hewan Peliharaan"
+                    android:textColor="#223480"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="242dp"
+                        android:layout_height="wrap_content"
+                        android:text="Pastikan semua anggota keluarga dan hewan peliharaan aman. Siapkan rencana evakuasi keluarga dan tempat yang aman untuk berkumpul."
+                        android:textColor="#223480"
+                        android:textSize="13sp"
+                        android:layout_marginTop="10dp"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/IVKeluarga"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:clipToOutline="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/keluarga"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/background_shapes"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="242dp"
+                        android:layout_height="wrap_content"
+                        android:text="Siapkan Tas Darurat"
+                        android:textColor="#223480"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="242dp"
+                        android:layout_height="wrap_content"
+                        android:text="Siapkan tas darurat yang berisi barang penting seperti dokumen identitas, obat-obatan, pakaian hangat, makanan dan air minum, serta alat komunikasi."
+                        android:textColor="#223480"
+                        android:textSize="13sp"
+                        android:layout_marginTop="10dp"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/IVTas"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:clipToOutline="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/barang"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/background_shapes"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="242dp"
+                        android:layout_height="wrap_content"
+                        android:text="Hindari Menyentuh Air yang Tergenang"
+                        android:textColor="#223480"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="242dp"
+                        android:layout_height="wrap_content"
+                        android:text="Jangan mencoba menyentuh atau bermain dengan air yang tergenang, karena air banjir bisa mengandung berbagai kontaminan dan risiko listrik."
+                        android:textColor="#223480"
+                        android:textSize="13sp"
+                        android:layout_marginTop="10dp"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/IVListrik"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:clipToOutline="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/listrik"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/background_shapes"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="242dp"
+                        android:layout_height="wrap_content"
+                        android:text="Gunakan Jalur Evakuasi yang Sudah Ditentukan"
+                        android:textColor="#223480"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="242dp"
+                        android:layout_height="wrap_content"
+                        android:text="Gunakan jalur evakuasi yang sudah ditentukan oleh pihak berwenang dan hindari jalanan yang tidak aman atau terputus."
+                        android:textColor="#223480"
+                        android:textSize="13sp"
+                        android:layout_marginTop="10dp"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/IVJalur"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:clipToOutline="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/jalur"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

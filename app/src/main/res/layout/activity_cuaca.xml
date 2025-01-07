@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".CuacaActivity">
+
+        <!-- Toolbar -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#9DADFA"
+            app:title="Kembali"
+            app:titleTextColor="#223480"
+            app:navigationIcon="@drawable/baseline_arrow_back_24" />
+
+        <!-- Judul -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Informasi Cuaca"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#223480"
+            android:fontFamily="sans-serif-medium" />
+
+        <!-- Kontainer untuk informasi cuaca -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginTop="50dp">
+
+            <!-- Gambar cuaca -->
+            <ImageView
+                android:id="@+id/IVCuaca"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/cuaca_image_desc"
+                android:src="@drawable/cerah" />
+
+            <!-- Status cuaca -->
+            <TextView
+                android:id="@+id/TVNilaiCuaca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Tidak Ada Hujan"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textColor="#223480"
+                android:padding="8dp" />
+
+            <!-- Informasi pembaruan -->
+            <TextView
+                android:id="@+id/TVUpdateCuaca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Diperbarui: 3 Januari 2025, 10:15"
+                android:textSize="14sp"
+                android:textColor="#223480"
+                android:padding="4dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

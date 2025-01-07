@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ETKota" type="id" />
+    <item name="ETPass1" type="id" />
+    <item name="ETNama1" type="id" />
+    <item name="ETEmail" type="id" />
+    <item name="BTNRegis" type="id" />
+    <item name="TVLogin" type="id" />
+</resources>
